@@ -1,0 +1,110 @@
+:root {
+    --bg-color: #f0f0f0;
+    --txt-color: #333;
+    --border-color: #ccc;
+    --less-color: #aaa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 750px;
+
+    padding: 1rem;
+
+    border-top: 1px solid var(--less-color);
+    border-bottom: 1px solid var(--less-color);
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    box-sizing: content-box;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.less {
+    color: var(--less-color);
+    font-style: italic;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 12px 0;
+}
+
+a {
+    color: var(--txt-color);
+    text-decoration: underline;
+
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+}
+
+a.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--txt-color);
+    border-radius: 0;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+a.button:hover {
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1rem;
+}
+
+#themeButton {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

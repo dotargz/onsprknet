@@ -1,95 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>onsprk ~ network</title>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>onsprk ~ network</title>
 
-		<!-- CSS -->
-		<style>
-			* {
-				box-sizing: border-box;
-			}
-			html {
-				height: 100%;
-				margin: 0;
-				padding: 0;
-			}
-			body {
-				background-color: #f0f0f0;
-				color: #333;
-				font-family: "Lora", serif;
-				margin: 0;
-				padding: 0;
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
 
-				height: 100vh;
+  <script src="https://kit.fontawesome.com/9cb2f2488a.js" crossorigin="anonymous"></script>
 
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-			main {
-				max-width: 750px;
-				padding: 1rem;
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
 
-				border-top: 1px solid #ccc;
-				border-bottom: 1px solid #ccc;
-
-				margin-left: 1rem;
-				margin-right: 1rem;
-
-				box-sizing: content-box;
-			}
-			h1 {
-				font-size: 2rem;
-				margin: 0;
-			}
-			.less {
-				color: #aaa;
-				font-style: italic;
-			}
-			p {
-				font-size: 1.5rem;
-				margin: 12px 0;
-			}
-			a {
-				color: #333;
-				text-decoration: underline;
-
-				transition: all 0.2s ease-in-out;
-			}
-			a:hover {
-				background-color: #333;
-				color: #f0f0f0;
-			}
-
-			a.button {
-				display: inline-block;
-				padding: 0.5rem 1rem;
-				border: 1px solid #333;
-				border-radius: 0;
-				text-decoration: none;
-				color: #333;
-				font-size: 1.25rem;
-				font-weight: 600;
-			}
-
-			a.button:hover {
-				background-color: #333;
-				color: #f0f0f0;
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<h1>onsprk<span class="less"> ~ network</span></h1>
-			<p>onsprk.net.eu.org is the network domain of <a href="https://onespark.dev">OneSpark LLC</a> and is used for hosting many of our backend services.</p>
-			<a class="button" href="https://onespark.dev">Learn More</a>
-		</main>
-	</body>
+<body>
+  <main>
+    <div id="title">
+      <h1>onsprk<span class="less"> ~ network</span></h1>
+      <a class="button" id="themeButton" onclick="themeToggle();">
+        <i class="fa-solid fa-moon"></i>
+      </a>
+    </div>
+    <p>
+      onsprk.net.eu.org is the network domain of
+      <a href="https://onespark.dev">OneSpark LLC</a> and is used for hosting
+      many of our backend services.
+    </p>
+    <a class="button" href="https://onespark.dev">Learn More</a>
+  </main>
+</body>
+<script src="/js/index.js"></script>
 </html>
