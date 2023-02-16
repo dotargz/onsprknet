@@ -97,11 +97,14 @@ a.button:hover {
     align-items: center;
     justify-content: flex-end;
 
+    gap: 1rem;
+
     margin-bottom: 1rem;
 }
 
+/* shift title > h1 all the way to the left */
 #title > h1 {
-    justify-self: flex-start;
+    margin-right: auto;
 }
 
 #themeButton, #homeButton {
